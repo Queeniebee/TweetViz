@@ -1,0 +1,15 @@
+require 'rack'
+require 'heroku'
+require 'sinatra'
+require 'thin'
+require 'sinatra/reloader'
+require 'gon'
+require 'net/http'
+require 'uri'
+require 'json'
+require 'twitter'
+require 'data_mapper'
+require './tweetviz.rb'
+require './app.rb'
+
+run Sinatra::Application

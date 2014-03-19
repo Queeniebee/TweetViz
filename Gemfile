@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'rack'
+gem 'heroku'
+gem 'sinatra'
+gem 'thin'
+gem 'sinatra-reloader'
+gem 'json'
+gem 'twitter'
+gem 'gon'
